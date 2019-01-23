@@ -1,0 +1,60 @@
+
+Clover EFI installer log - Sun Nov 18 16:06:21 EST 2018
+Installer version: v2.4k r4741 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *128.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS macOS Sierra            126.5 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+   4:                 Apple_Boot Recovery HD             650.0 MB   disk0s4
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS Media                   407.4 GB   disk1s2
+   3:                  Apple_HFS Old Mavericks           92.2 GB    disk1s3
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            Disk Image             +41.0 MB    disk2
+
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        +24.2 MB    disk3
+   1:        Apple_partition_map                         32.3 KB    disk3s1
+   2:                  Apple_HFS Flash Player            24.2 MB    disk3s2
+
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     Apple_partition_scheme                        +23.7 MB    disk4
+   1:        Apple_partition_map                         32.3 KB    disk4s1
+   2:                  Apple_HFS Flash Player            23.7 MB    disk4s2
+
+/dev/disk5 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                                                   *1.0 TB     disk5
+
+/dev/disk6 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *16.0 GB    disk6
+   1:                        EFI EFI                     209.7 MB   disk6s1
+   2:                  Apple_HFS macOS High Sierra 10... 15.7 GB    disk6s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to //boot
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'christmas'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
